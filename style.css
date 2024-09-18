@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #AAAAAA;
+}
+
+::placeholder {
+    color: #555555;
+    opacity: 100%;
+}
+
+::-ms-input-placeholder {
+    color: #555555;
+}
+
+input {
+    color: #000000;
+    font-family: monospace;
+    font-size: 2vw;
+}
+
+button {
+    color: #000000;
+    font-family: monospace;
+    font-size: 2vw;
+    border: 0.1vw solid;
+}
+
+.hr-br {
+    opacity: 0;
+}
+
+.txt-test {
+    height: 2vw;
+    width: 60vw;
+}
+
+#main-content {
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    width: 60vw;
+}
+
+#scroll-anchor {
+    height: 100vh;
+    width: 100vw;
+}
