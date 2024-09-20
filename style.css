@@ -1,7 +1,4 @@
 body {
-    margin: 0;
-    border: 0;
-    padding: 0;
     background-color: #AAAAAA;
 }
 
@@ -17,14 +14,11 @@ body {
 input {
     color: #000000;
     font-family: monospace;
-    font-size: 2vw;
 }
 
 button {
     color: #000000;
     font-family: monospace;
-    font-size: 2vw;
-    border: 0.1vw solid;
 }
 
 .hr-br {
@@ -32,8 +26,26 @@ button {
 }
 
 .txt-test {
-    height: 2vw;
     width: 60vw;
+    background-color: #FFFFFF;
+}
+
+.txt-okay {
+    width: 60vw;
+    background-color: #55FF55;
+}
+
+.txt-fail {
+    width: 60vw;
+    background-color: #FF5555;
+}
+
+.txt-lhs {
+    width: 10vw;
+}
+
+.txt-rhs {
+    width: 40vw;
 }
 
 #main-content {

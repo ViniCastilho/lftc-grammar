@@ -4,7 +4,7 @@
         <meta charset='UTF-8'>
         <link rel='stylesheet' href='style.css'>
         <script src='main.js' defer='defer'></script>
-        <title>LFTC-GRAMMAR</title>
+        <title>Gramática Direita</title>
     </head>
     <body>
         <div id='main-content'>
@@ -12,10 +12,14 @@
             <input id='g-in-1' class='txt-test' type='text' placeholder='TEST 2'><hr class='hr-br'>
             <input id='g-in-2' class='txt-test' type='text' placeholder='TEST 3'><hr class='hr-br'>
             
-            <button id='g-test' class='btn-test'>Run</button><hr class='hr-br'>
+            <button id='g-test' class='btn-test'>Run Test</button><hr class='hr-br'>
             
-            <input id='g-ls-0' class='
-            ' type='text' placeholder='SYMB'>
+            <div id='eq'>
+                <input id='g-ls-0' class='txt-lhs' type='text' placeholder='LHS' maxlength='1'><input id='g-rs-0' class='txt-rhs' type='text' placeholder='λ'>
+                <hr class='hr-br'>
+            </div>
+            
+            <button id='g-add' class='btn-test'>Add Equation</button>
         </div>
         <div id='scroll-anchor'></div>
     </body>
